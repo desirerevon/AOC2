@@ -1,18 +1,18 @@
 //
-//  DRViewController.m
-//  appLife
+//  ViewController.m
+//  AppLife
 //
 //  Created by Desire Gardner on 4/9/13.
-//  Copyright (c) 2013 Desire Gardner. All rights reserved.
+//
 //
 
-#import "DRViewController.h"
+#import "ViewController.h"
 
-@interface DRViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation DRViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {
