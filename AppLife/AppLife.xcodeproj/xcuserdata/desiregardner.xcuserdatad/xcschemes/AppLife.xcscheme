@@ -14,10 +14,17 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD:weekOne/appLife/appLife.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/appLife.xcscheme
+               BlueprintIdentifier = "01750654171475230082B595"
+               BuildableName = "appLife.app"
+               BlueprintName = "appLife"
+               ReferencedContainer = "container:appLife.xcodeproj">
+=======
                BlueprintIdentifier = "017506C317147E0A0082B595"
                BuildableName = "AppLife.app"
                BlueprintName = "AppLife"
                ReferencedContainer = "container:AppLife.xcodeproj">
+>>>>>>> origin/master:AppLife/AppLife.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/AppLife.xcscheme
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +39,17 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD:weekOne/appLife/appLife.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/appLife.xcscheme
+            BlueprintIdentifier = "01750654171475230082B595"
+            BuildableName = "appLife.app"
+            BlueprintName = "appLife"
+            ReferencedContainer = "container:appLife.xcodeproj">
+=======
             BlueprintIdentifier = "017506C317147E0A0082B595"
             BuildableName = "AppLife.app"
             BlueprintName = "AppLife"
             ReferencedContainer = "container:AppLife.xcodeproj">
+>>>>>>> origin/master:AppLife/AppLife.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/AppLife.xcscheme
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +65,17 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD:weekOne/appLife/appLife.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/appLife.xcscheme
+            BlueprintIdentifier = "01750654171475230082B595"
+            BuildableName = "appLife.app"
+            BlueprintName = "appLife"
+            ReferencedContainer = "container:appLife.xcodeproj">
+=======
             BlueprintIdentifier = "017506C317147E0A0082B595"
             BuildableName = "AppLife.app"
             BlueprintName = "AppLife"
             ReferencedContainer = "container:AppLife.xcodeproj">
+>>>>>>> origin/master:AppLife/AppLife.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/AppLife.xcscheme
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +90,17 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD:weekOne/appLife/appLife.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/appLife.xcscheme
+            BlueprintIdentifier = "01750654171475230082B595"
+            BuildableName = "appLife.app"
+            BlueprintName = "appLife"
+            ReferencedContainer = "container:appLife.xcodeproj">
+=======
             BlueprintIdentifier = "017506C317147E0A0082B595"
             BuildableName = "AppLife.app"
             BlueprintName = "AppLife"
             ReferencedContainer = "container:AppLife.xcodeproj">
+>>>>>>> origin/master:AppLife/AppLife.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/AppLife.xcscheme
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
