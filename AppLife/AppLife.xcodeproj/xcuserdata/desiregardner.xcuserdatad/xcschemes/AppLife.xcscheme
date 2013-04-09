@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0175061F171462230082B595"
-               BuildableName = "appLife.app"
-               BlueprintName = "appLife"
-               ReferencedContainer = "container:appLife.xcodeproj">
+               BlueprintIdentifier = "017506C317147E0A0082B595"
+               BuildableName = "AppLife.app"
+               BlueprintName = "AppLife"
+               ReferencedContainer = "container:AppLife.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0175061F171462230082B595"
-            BuildableName = "appLife.app"
-            BlueprintName = "appLife"
-            ReferencedContainer = "container:appLife.xcodeproj">
+            BlueprintIdentifier = "017506C317147E0A0082B595"
+            BuildableName = "AppLife.app"
+            BlueprintName = "AppLife"
+            ReferencedContainer = "container:AppLife.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0175061F171462230082B595"
-            BuildableName = "appLife.app"
-            BlueprintName = "appLife"
-            ReferencedContainer = "container:appLife.xcodeproj">
+            BlueprintIdentifier = "017506C317147E0A0082B595"
+            BuildableName = "AppLife.app"
+            BlueprintName = "AppLife"
+            ReferencedContainer = "container:AppLife.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0175061F171462230082B595"
-            BuildableName = "appLife.app"
-            BlueprintName = "appLife"
-            ReferencedContainer = "container:appLife.xcodeproj">
+            BlueprintIdentifier = "017506C317147E0A0082B595"
+            BuildableName = "AppLife.app"
+            BlueprintName = "AppLife"
+            ReferencedContainer = "container:AppLife.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
