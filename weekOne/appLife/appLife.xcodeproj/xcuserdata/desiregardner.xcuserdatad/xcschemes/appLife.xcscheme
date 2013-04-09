@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0175061F171462230082B595"
+               BlueprintIdentifier = "01750654171475230082B595"
                BuildableName = "appLife.app"
                BlueprintName = "appLife"
                ReferencedContainer = "container:appLife.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0175061F171462230082B595"
+            BlueprintIdentifier = "01750654171475230082B595"
             BuildableName = "appLife.app"
             BlueprintName = "appLife"
             ReferencedContainer = "container:appLife.xcodeproj">
@@ -51,7 +51,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0175061F171462230082B595"
+            BlueprintIdentifier = "01750654171475230082B595"
             BuildableName = "appLife.app"
             BlueprintName = "appLife"
             ReferencedContainer = "container:appLife.xcodeproj">
@@ -69,7 +69,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0175061F171462230082B595"
+            BlueprintIdentifier = "01750654171475230082B595"
             BuildableName = "appLife.app"
             BlueprintName = "appLife"
             ReferencedContainer = "container:appLife.xcodeproj">
