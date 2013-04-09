@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+{
+    UILabel *textLabel;
+
+}
+
 @end

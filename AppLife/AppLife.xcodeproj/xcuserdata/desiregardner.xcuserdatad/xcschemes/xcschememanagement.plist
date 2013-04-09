@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AppLife 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>AppLife.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,11 +17,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-<<<<<<< HEAD:weekOne/appLife/appLife.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/xcschememanagement.plist
-		<key>01750654171475230082B595</key>
-=======
 		<key>017506C317147E0A0082B595</key>
->>>>>>> origin/master:AppLife/AppLife.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/xcschememanagement.plist
 		<dict>
 			<key>primary</key>
 			<true/>
