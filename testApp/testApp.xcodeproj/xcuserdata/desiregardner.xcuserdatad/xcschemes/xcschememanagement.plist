@@ -2,30 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SchemeUserState</key>
-	<dict>
-<<<<<<< HEAD:AppLife/AppLife.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/xcschememanagement.plist
-		<key>AppLife 2.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>AppLife.xcscheme</key>
-=======
-		<key>testApp.xcscheme</key>
->>>>>>> origin/gh-pages:testApp/testApp.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/xcschememanagement.plist
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-<<<<<<< HEAD:AppLife/AppLife.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/xcschememanagement.plist
-		<key>017506C317147E0A0082B595</key>
-=======
 		<key>010DEF6617161E1000E9A2C1</key>
->>>>>>> origin/gh-pages:testApp/testApp.xcodeproj/xcuserdata/desiregardner.xcuserdatad/xcschemes/xcschememanagement.plist
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -61,7 +61,6 @@
     if (oneInfo != nil)
     {
         oneInfo.backgroundColor = [UIColor  colorWithRed:0.84 green:0.29 blue:0.95 alpha:1.0];//#d649
-        oneInfo.text = @"Adult Book Information";
         oneInfo.textAlignment = NSTextAlignmentCenter;
         oneInfo.numberOfLines = 2;
     }
@@ -72,7 +71,6 @@
     if (twoInfo != nil);
     {
         twoInfo.backgroundColor = [UIColor  colorWithRed:0.00 green:0.44 blue:1.00 alpha:1.0];//blue
-        twoInfo.text = @"Kid Book Information";
         twoInfo.textAlignment = NSTextAlignmentCenter;
         twoInfo.numberOfLines = 2;
     }
@@ -83,7 +81,6 @@
     if (threeInfo != nil)
     {
         threeInfo.backgroundColor = [UIColor  colorWithRed:0.18 green:0.72 blue:0.13 alpha:1.0];//green
-        threeInfo.text = @"Child Book Information";
         threeInfo.textAlignment = NSTextAlignmentCenter;
         threeInfo.numberOfLines = 2;
     }
