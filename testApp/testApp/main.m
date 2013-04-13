@@ -1,8 +1,8 @@
 //
 //  main.m
-//  AppLife
+//  testApp
 //
-//  Created by Desire Gardner on 4/9/13.
+//  Created by Desire Gardner on 4/10/13.
 //
 //
 
