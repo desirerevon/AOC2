@@ -23,9 +23,9 @@ typedef enum
 
 
 //Data Members: Array[books], read time in minutes, pages
-@property NSArray *bookList;
 @property NSString *pagesRead;
-@property int readTimeInMinutes;
+@property int  readTimeMinutes;
+@property NSArray *list;
 
 //Initialize
 -(id)init;

@@ -10,7 +10,7 @@
 
 @implementation childBook
 
-@synthesize pages, timePerPage, readTimeInMinutes;
+@synthesize pages, timePerPage, totalReadTime;
 
 //Customize init: Setting data for Child Book
 -(id)init
@@ -18,15 +18,14 @@
     self = [super init];
     if(self != nil)
     {
-        [self setPages:0];
-        [self setReadTimeInMinutes:0];
+        [self setTimePerPage:5];
     }
     return self;
 }
 
 -(void)calculateReadTime
 {
-    [self setPages:(readTimeInMinutes / timePerPage)];
+    [self setTotalReadTime:(pages * timePerPage)];
 }
 
 @end

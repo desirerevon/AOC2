@@ -12,8 +12,10 @@
 @interface kidBook :baseStore
 
 //Data for number of books read and time per book
-@property int numOfBooks;
-@property int readTimePerBook;
-@property int readTimeInMinutes;
+@property int pages;
+@property int timePerPage;
+
+
+
 
 @end

@@ -6,11 +6,12 @@
 //
 //
 
-#import <Foundation/Foundation.h>
 #import "baseStore.h"
 
 @interface childBook : baseStore
 
 @property int pages;
 @property int timePerPage;
+@property int totalReadTime;
+
 @end

@@ -13,6 +13,8 @@
 
 //Data Members: Page numbers and readTime
 @property int pages;
-@property int readTimePerPage;
-@property int readTimeInMinutes;
+@property int readTimeMinutes;
+@property int timePerPage;
+@property int breakTime;
+
 @end

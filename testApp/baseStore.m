@@ -10,7 +10,7 @@
 
 @implementation baseStore
 
-@synthesize bookList, pagesRead, readTimeInMinutes;
+@synthesize list, pagesRead, readTimeMinutes;
 
 //Initialize Defautls. Set read time to zero.
 -(id)init
@@ -18,9 +18,10 @@
     self = [super init];
     if (self != nil)
     {
-        [self setReadTimeInMinutes:0];
-        [self setBookList:nil];
-        [self setPagesRead:nil];
+         [self setReadTimeMinutes:0];
+         [self setList:0];
+         [self setPagesRead:0];
+       
     
     }
     return self;
@@ -29,7 +30,7 @@
 //Calculation For Read Time
 -(void)calculateReadTime
 {
-    NSLog(@"It will take %i minutes to read this book",readTimeInMinutes);
+    NSLog(@"It will take %i minutes to read.",readTimeMinutes);
 }
 
 @end
