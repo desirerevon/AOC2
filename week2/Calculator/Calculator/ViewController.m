@@ -48,7 +48,7 @@
         [self presentModalViewController:viewController animated:TRUE];
     }
     
-}
+}//working
 
 
 
@@ -91,7 +91,7 @@
         }
     }
     
-}
+}//working
 
 
 //Numbers pressed on calculator
@@ -102,32 +102,16 @@
 -(IBAction)numPressed:(UIButton*)sender 
 
 {
-    NSString *number = sender.titleLabel.text;
-    NSLog(@"%@", number);
-    if ([@"0" isEqual:number] && [@"0" isEqual:screen.text])
-    {
-        typing = FALSE;
-    }
-    // if the number on the screen is 0
-    else if (typing == FALSE)
-    {
-        // replace screentext with pressed number
-        screen.text = number;
-        typing = TRUE;
-    }
-    else
-    {
-        // display or append the number on the calculator screen
-        screen.text = [screen.text stringByAppendingString:number];
-        typing = TRUE;
-    }
-}
+    firstNum = firstNum *10 + (float)[sender tag];
+    screen.text = [NSString stringWithFormat:@"%2f", firstNum];
+   
+
+}//working
 
 
 
 
 //ADD NUMBERS//////////////////////////////////////////////////////////////////////
-//RETURN NUMBERS AS STRINGS////////////////////////////////////////////////////////
 -(IBAction)findSum:(id)sender;
 {
 if(sumButton == 0) sum = firstNum;
@@ -144,18 +128,27 @@ if(sumButton == 0) sum = firstNum;
         case 3:
             sum = sum * firstNum;
             break;
+        case 4:
+            sumButton = 0;
+            break;
+                
                 
     }
   }
+    firstNum = 0;
+    displayText.text = [NSString stringWithFormat:@"%2f",sum];
+    if ([sender tag] == 0) sum = 0;
+    sumButton = [sender tag];
 }
 
 //CLEAR CALC MEMORY AND RESET////////////////////////////////////////////////////////
--(IBAction)onClear:(id)sender; //clear all button
+-(IBAction)onClear:(id)sender; 
 {
     sumButton = 0;
     displayText.text = @"0";
     
-}
+    
+}//working
 
 
 
