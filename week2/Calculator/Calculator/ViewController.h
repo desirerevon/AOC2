@@ -13,6 +13,7 @@
     IBOutlet UIButton    *infoScreen;
     IBOutlet UITextField *screen;
     IBOutlet UIButton    *calcPower;
+    IBOutlet UITextField *displayText;
     int numOne;
     int numTwo;
     bool typing;
@@ -32,5 +33,7 @@
 -(IBAction)findSum:(id)sender; //find sum
 
 -(IBAction)colorChange:(UISegmentedControl*)sender; //change background color
+
+-(IBAction)onClear:(id)sender; //clear
 
 @end

@@ -86,9 +86,8 @@
             {
                eachButton.enabled = TRUE;
             }
-            [self clearCalc];
             self.view.backgroundColor = [UIColor whiteColor];
-            screen.text = @"0";
+            screen.text = @"Hello!";
         }
     }
     
@@ -145,13 +144,11 @@ if(sumButton == 0) sum = firstNum;
 }
 
 //CLEAR CALC MEMORY AND RESET////////////////////////////////////////////////////////
--(void)clearCalc
+-(IBAction)onClear:(id)sender; //clear all button
 {
-    numOne = 0;
-    numTwo = 0;
-    typing = FALSE;
+    sumButton = 0;
+    displayText.text = @"0";
 }
-
 
 
 
