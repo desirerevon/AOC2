@@ -143,15 +143,22 @@
 
 //ADD NUMBERS//////////////////////////////////////////////////////////////////////
 //RETURN NUMBERS AS STRINGS////////////////////////////////////////////////////////
-
--(NSString*)addNum:(NSInteger)one two:(NSInteger)two
-
+-(IBAction)findSum:(id)sender;
 {
-    numOne = two;
-    numOne = (numOne + numTwo);
+if(sumButton == 0) sum = firstNum;
+
+
+else {
+    switch (sumButton) {
+            
+        case 1:
+            sum = sum + firstNum;
+            break;
+            
+    }
     
-    NSString *covertString = [[NSString alloc] initWithFormat:@"%d", numOne];
-    return covertString;
+}
+
 }
 
 //CLEAR CALC MEMORY AND RESET////////////////////////////////////////////////////////
@@ -163,34 +170,6 @@
 }
 
 
-
-
-//INITIALIZE FUNCTIONS///////////////////////////////////////////////////////////////
--(IBAction)intializeFunction:(UIButton*)sender 
-
-{
-    NSString *function = sender.titleLabel.text;
-    NSLog(@"%@", function);
-    
-    if ([function isEqualToString:@"+"]) //Get addition 
-    {
-        screen.text = [self findSum:numOne two:[screen.text intValue]];
-        typing = FALSE;
-        
-    }
-    else if ([function isEqualToString:@"="])//Print Answer
-    {
-        screen.text = [self findSum:numOne two:[screen.text intValue]];
-        [self clearCalc];
-    }
-    else if ([function isEqualToString:@"Clear"])
-    {
-        [self clearCalc];
-        NSString *total = [[NSString alloc] initWithFormat:@"%d", numOne];
-        screen.text = [[NSString alloc] initWithString:total];
-    }
-    
-}
 
 
 //CHANGE BACKGROUND COLOR//////////////////////////////////////////////////////////
@@ -215,6 +194,6 @@
             self.view.backgroundColor = [UIColor greenColor];
         };
     }
-}
+}// working
 
 @end

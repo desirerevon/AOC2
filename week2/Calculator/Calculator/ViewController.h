@@ -17,6 +17,9 @@
     int numTwo;
     bool typing;
     int buttonIndex;
+    int sumButton;
+    float firstNum;
+    float sum;
 }
 
 //IBActions
@@ -27,9 +30,7 @@
 
 -(IBAction)numPressed:(UIButton*)sender; //a number is pressed
 
--(NSString*)findSum:(NSInteger)one two:(NSInteger)two;// add numbers
-
--(IBAction)intializeFunction:(UIButton*)sender; //Add, clear or equal
+-(IBAction)findSum:(id)sender; //find sum
 
 -(IBAction)colorChange:(UISegmentedControl*)sender; //change background color
 
