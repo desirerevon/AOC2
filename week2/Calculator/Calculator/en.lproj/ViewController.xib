@@ -82,7 +82,7 @@
 						<string key="NSFrame">{{21, 105}, {51, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
+						<reference key="NSNextKeyView" ref="433391636"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -118,6 +118,7 @@
 						<string key="NSFrame">{{85, 105}, {51, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="327633573"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -140,6 +141,7 @@
 						<string key="NSFrame">{{144, 105}, {51, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="980413393"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -162,7 +164,7 @@
 						<string key="NSFrame">{{224, 266}, {74, 36}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
+						<reference key="NSNextKeyView" ref="782033431"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -185,7 +187,7 @@
 						<string key="NSFrame">{{224, 207}, {74, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="782033431"/>
+						<reference key="NSNextKeyView" ref="1042925134"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -208,7 +210,7 @@
 						<string key="NSFrame">{{224, 105}, {74, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="791185071"/>
+						<reference key="NSNextKeyView" ref="145175108"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -338,6 +340,7 @@
 						<string key="NSFrame">{{21, 156}, {51, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="735637125"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -360,6 +363,7 @@
 						<string key="NSFrame">{{85, 156}, {51, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="763562592"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -382,6 +386,7 @@
 						<string key="NSFrame">{{144, 156}, {51, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="572271822"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -404,6 +409,7 @@
 						<string key="NSFrame">{{21, 207}, {51, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="334484770"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -426,6 +432,7 @@
 						<string key="NSFrame">{{85, 207}, {51, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="922917994"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -448,6 +455,7 @@
 						<string key="NSFrame">{{144, 207}, {51, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="791185071"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -470,6 +478,7 @@
 						<string key="NSFrame">{{85, 258}, {51, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="296279138"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -527,14 +536,6 @@
 						<reference key="destination" ref="774585933"/>
 					</object>
 					<int key="connectionID">7</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">infoScreen</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="776014653"/>
-					</object>
-					<int key="connectionID">291</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
@@ -640,7 +641,7 @@
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">296</int>
+					<int key="connectionID">677</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -2461,7 +2462,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">674</int>
+			<int key="maxID">677</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">

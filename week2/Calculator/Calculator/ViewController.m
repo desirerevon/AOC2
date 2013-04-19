@@ -41,25 +41,11 @@
 
 //SWITCH SCREENS////////////////////////////////////////////////////////////////////
 -(IBAction)onClick:(id)sender
-
 {
-    UIButton *button = (UIButton*)sender;
-    
-    if(button != nil)
+    infoViewController *viewController = [[infoViewController alloc] initWithNibName:@"infoViewController" bundle:nil];
+    if (viewController != nil)
     {
-        
-        if (button.tag == 10)
-        {
-            infoViewController *infoView = [[infoViewController alloc] initWithNibName:@"infoViewController" bundle:nil];
-            if (infoView != nil)
-            {
-                [self presentViewController:infoView animated:TRUE completion:nil];
-            }
-        }
-        else
-        {
-            NSLog(@"%d", button.tag);
-        }
+        [self presentModalViewController:viewController animated:TRUE];
     }
     
 }
@@ -147,18 +133,15 @@
 {
 if(sumButton == 0) sum = firstNum;
 
-
-else {
-    switch (sumButton) {
+ else {
+        switch (sumButton) {
             
         case 1:
             sum = sum + firstNum;
             break;
             
     }
-    
-}
-
+  }
 }
 
 //CLEAR CALC MEMORY AND RESET////////////////////////////////////////////////////////

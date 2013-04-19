@@ -16,7 +16,6 @@
     int numOne;
     int numTwo;
     bool typing;
-    int buttonIndex;
     int sumButton;
     float firstNum;
     float sum;
