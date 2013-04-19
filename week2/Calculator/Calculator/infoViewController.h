@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface infoViewController : NSObject
+@interface infoViewController : UIViewController
+
+-(IBAction)onClose:(id)sender;
+
 
 @end

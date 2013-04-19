@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "infoViewController.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,204 @@
 
 - (void)viewDidLoad
 {
+    screen.enabled = FALSE; //diables screen action on entire calc
+    screen.text = @"0";//sets default to zero
+    calcPower.enabled= TRUE; //default on
+    numOne = 0; //global nums set to 0
+    numTwo = 0;
+    
+    typing = FALSE; //user has not typed a value other than 0 or not typed at all
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
 {
+    
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+///IBActions/////////////////////////////////////////////////////////////////
+
+//SWITCH SCREENS////////////////////////////////////////////////////////////////////
+-(IBAction)onClick:(id)sender
+
+{
+    UIButton *button = (UIButton*)sender;
+    
+    if(button != nil)
+    {
+        
+        if (button.tag == 10)
+        {
+            infoViewController *infoView = [[infoViewController alloc] initWithNibName:@"infoViewController" bundle:nil];
+            if (infoView != nil)
+            {
+                [self presentViewController:infoView animated:TRUE completion:nil];
+            }
+        }
+        else
+        {
+            NSLog(@"%d", button.tag);
+        }
+    }
+    
+}
+
+
+
+//Turns calculator on or off
+//prints text hello or goodbye
+//changes dark gray if powered down
+//changes white if turned on/////////////////////////////////////////////////////////
+
+-(IBAction)powerSwitch:(id)sender
+
+{
+
+    UISwitch *powerSwitch = (UISwitch*)sender;
+    if (powerSwitch != nil)
+    {
+        if (powerSwitch.on == FALSE)
+        {
+           //change mood once powered down
+            NSLog(@"Good Bye!");
+            screen.text = @"Good Bye!";
+            for (UIButton *eachButton in self.view.subviews)
+            {
+                eachButton.enabled = FALSE;
+            }
+            screen.text = @"Good Bye!";
+            self.view.backgroundColor = [UIColor darkGrayColor];
+            powerSwitch.enabled = TRUE;
+        }
+        else if (powerSwitch.on == TRUE)
+        {
+            //displays 0 when turned on
+            NSLog(@"Hello!");
+            screen.text = @"Hello!";
+            for (UIButton *eachButton in self.view.subviews)
+            {
+               eachButton.enabled = TRUE;
+            }
+            [self clearCalc];
+            self.view.backgroundColor = [UIColor whiteColor];
+            screen.text = @"0";
+        }
+    }
+    
+}
+
+
+//Numbers pressed on calculator
+//Get the number and place it in the text label
+//prevent trailing zeros
+//if the user has input zero they are considered in the process of typing or not at all///////
+
+-(IBAction)numPressed:(UIButton*)sender 
+
+{
+    NSString *number = sender.titleLabel.text;
+    NSLog(@"%@", number);
+    if ([@"0" isEqual:number] && [@"0" isEqual:screen.text])
+    {
+        typing = FALSE;
+    }
+    // if the number on the screen is 0
+    else if (typing == FALSE)
+    {
+        // replace screentext with pressed number
+        screen.text = number;
+        typing = TRUE;
+    }
+    else
+    {
+        // display or append the number on the calculator screen
+        screen.text = [screen.text stringByAppendingString:number];
+        typing = TRUE;
+    }
+}
+
+
+
+
+//ADD NUMBERS//////////////////////////////////////////////////////////////////////
+//RETURN NUMBERS AS STRINGS////////////////////////////////////////////////////////
+
+-(NSString*)addNum:(NSInteger)one two:(NSInteger)two
+
+{
+    numOne = two;
+    numOne = (numOne + numTwo);
+    
+    NSString *covertString = [[NSString alloc] initWithFormat:@"%d", numOne];
+    return covertString;
+}
+
+//CLEAR CALC MEMORY AND RESET////////////////////////////////////////////////////////
+-(void)clearCalc
+{
+    numOne = 0;
+    numTwo = 0;
+    typing = FALSE;
+}
+
+
+
+
+//INITIALIZE FUNCTIONS///////////////////////////////////////////////////////////////
+-(IBAction)intializeFunction:(UIButton*)sender 
+
+{
+    NSString *function = sender.titleLabel.text;
+    NSLog(@"%@", function);
+    
+    if ([function isEqualToString:@"+"]) //Get addition 
+    {
+        screen.text = [self findSum:numOne two:[screen.text intValue]];
+        typing = FALSE;
+        
+    }
+    else if ([function isEqualToString:@"="])//Print Answer
+    {
+        screen.text = [self findSum:numOne two:[screen.text intValue]];
+        [self clearCalc];
+    }
+    else if ([function isEqualToString:@"Clear"])
+    {
+        [self clearCalc];
+        NSString *total = [[NSString alloc] initWithFormat:@"%d", numOne];
+        screen.text = [[NSString alloc] initWithString:total];
+    }
+    
+}
+
+
+//CHANGE BACKGROUND COLOR//////////////////////////////////////////////////////////
+-(IBAction)colorChange:(UISegmentedControl*)sender
+
+{
+    UISegmentedControl *switchColor = (UISegmentedControl*)sender;
+    if (switchColor != nil)
+    {
+        int colorSelectorIndex = switchColor.selectedSegmentIndex;
+        NSLog(@"%d", colorSelectorIndex);
+        if(colorSelectorIndex == 0)
+        {
+            self.view.backgroundColor = [UIColor blueColor];
+        }
+        else if (colorSelectorIndex == 1)
+        {
+            self.view.backgroundColor = [UIColor redColor];
+        }
+        else if (colorSelectorIndex == 2)
+        {
+            self.view.backgroundColor = [UIColor greenColor];
+        };
+    }
 }
 
 @end
