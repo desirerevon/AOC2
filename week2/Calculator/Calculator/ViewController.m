@@ -138,7 +138,13 @@ if(sumButton == 0) sum = firstNum;
         case 1:
             sum = sum + firstNum;
             break;
-            
+        case 2:
+            sum = sum - firstNum;
+            break;
+        case 3:
+            sum = sum * firstNum;
+            break;
+                
     }
   }
 }
@@ -148,6 +154,7 @@ if(sumButton == 0) sum = firstNum;
 {
     sumButton = 0;
     displayText.text = @"0";
+    
 }
 
 
@@ -167,11 +174,11 @@ if(sumButton == 0) sum = firstNum;
         }
         else if (colorSelectorIndex == 1)
         {
-            self.view.backgroundColor = [UIColor redColor];
+            self.view.backgroundColor = [UIColor magentaColor];
         }
         else if (colorSelectorIndex == 2)
         {
-            self.view.backgroundColor = [UIColor greenColor];
+            self.view.backgroundColor = [UIColor brownColor];
         };
     }
 }// working
