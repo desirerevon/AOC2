@@ -1,10 +1,13 @@
 //
 //  infoViewController.m
-//  Calculator
+//  bookFactory
 //
-//  Created by Desire Gardner on 4/18/13.
+//  Created by Desire Gardner on 4/19/13.
 //  Copyright (c) 2013 Desire Gardner. All rights reserved.
 //
+
+
+
 
 #import "infoViewController.h"
 
