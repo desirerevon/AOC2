@@ -10,7 +10,7 @@
 
 @implementation adultBook
 
-@synthesize pages, timePerPage, breakTime;
+@synthesize pages, timePerPage;
 
 //Customize init: Setting data for Adult Book
 
@@ -21,7 +21,6 @@
     {
         [self setPages:0];
         [self setTimePerPage:0];
-        [self setBreakTime:0];
 
 
     
@@ -32,6 +31,6 @@
 //Override Base Data to factor in new data
 -(void)calculateReadTime
 {
-    [self setReadTimeMinutes:(pages * timePerPage + breakTime)];
+    [self setReadTimeInMinutes:(pages * timePerPage)];
 }
 @end

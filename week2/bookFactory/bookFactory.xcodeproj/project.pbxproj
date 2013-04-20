@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0118D24617224989007624E9 /* dr.seussabc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0118D24517224989007624E9 /* dr.seussabc.jpg */; };
+		0118D24A172249B5007624E9 /* potter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0118D248172249B5007624E9 /* potter.jpg */; };
+		0118D24B172249B5007624E9 /* objc.png in Resources */ = {isa = PBXBuildFile; fileRef = 0118D249172249B5007624E9 /* objc.png */; };
 		017933CC1721C9B2002D8BCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017933CB1721C9B2002D8BCA /* UIKit.framework */; };
 		017933CE1721C9B2002D8BCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017933CD1721C9B2002D8BCA /* Foundation.framework */; };
 		017933D01721C9B2002D8BCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017933CF1721C9B2002D8BCA /* CoreGraphics.framework */; };
@@ -20,15 +23,18 @@
 		017933E81721C9B2002D8BCA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017933E61721C9B2002D8BCA /* ViewController.xib */; };
 		017933EF1721D65A002D8BCA /* infoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017933EE1721D65A002D8BCA /* infoViewController.xib */; };
 		017933F21721D679002D8BCA /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017933F11721D679002D8BCA /* infoViewController.m */; };
-		0179340617220BCA002D8BCA /* childBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 017933FC17220BCA002D8BCA /* childBook.m */; };
-		0179340717220BCA002D8BCA /* kidBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 017933FE17220BCA002D8BCA /* kidBook.m */; };
-		0179340817220BCA002D8BCA /* adultBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179340017220BCA002D8BCA /* adultBook.m */; };
-		0179340917220BCA002D8BCA /* baseStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179340117220BCA002D8BCA /* baseStore.m */; };
-		0179341217221338002D8BCA /* bookFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179341017221337002D8BCA /* bookFactory.m */; };
-		017934141722221F002D8BCA /* IMG_1576.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 017934131722221F002D8BCA /* IMG_1576.jpg */; };
+		01793428172239A6002D8BCA /* bookFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179341F172239A6002D8BCA /* bookFactory.m */; };
+		01793429172239A6002D8BCA /* childBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 01793422172239A6002D8BCA /* childBook.m */; };
+		0179342A172239A6002D8BCA /* kidBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 01793424172239A6002D8BCA /* kidBook.m */; };
+		0179342B172239A6002D8BCA /* adultBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 01793426172239A6002D8BCA /* adultBook.m */; };
+		0179342E172239D6002D8BCA /* IMG_1576.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0179342D172239D6002D8BCA /* IMG_1576.jpg */; };
+		0179343017223BD5002D8BCA /* baseStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179342F17223BD5002D8BCA /* baseStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0118D24517224989007624E9 /* dr.seussabc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dr.seussabc.jpg; path = ../../../../dr.seussabc.jpg; sourceTree = "<group>"; };
+		0118D248172249B5007624E9 /* potter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = potter.jpg; path = ../../../../potter.jpg; sourceTree = "<group>"; };
+		0118D249172249B5007624E9 /* objc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = objc.png; path = ../../../../objc.png; sourceTree = "<group>"; };
 		017933C71721C9B2002D8BCA /* bookFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		017933CB1721C9B2002D8BCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		017933CD1721C9B2002D8BCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,17 +54,18 @@
 		017933EE1721D65A002D8BCA /* infoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = infoViewController.xib; sourceTree = "<group>"; };
 		017933F01721D679002D8BCA /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
 		017933F11721D679002D8BCA /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoViewController.m; sourceTree = "<group>"; };
-		017933FB17220BCA002D8BCA /* adultBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adultBook.h; path = ../../../AOC2/week1/testApp/adultBook.h; sourceTree = "<group>"; };
-		017933FC17220BCA002D8BCA /* childBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = childBook.m; path = ../../../AOC2/week1/testApp/childBook.m; sourceTree = "<group>"; };
-		017933FD17220BCA002D8BCA /* childBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = childBook.h; path = ../../../AOC2/week1/testApp/childBook.h; sourceTree = "<group>"; };
-		017933FE17220BCA002D8BCA /* kidBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kidBook.m; path = ../../../AOC2/week1/testApp/kidBook.m; sourceTree = "<group>"; };
-		017933FF17220BCA002D8BCA /* kidBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kidBook.h; path = ../../../AOC2/week1/testApp/kidBook.h; sourceTree = "<group>"; };
-		0179340017220BCA002D8BCA /* adultBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = adultBook.m; path = ../../../AOC2/week1/testApp/adultBook.m; sourceTree = "<group>"; };
-		0179340117220BCA002D8BCA /* baseStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = baseStore.m; path = ../../../AOC2/week1/testApp/baseStore.m; sourceTree = "<group>"; };
-		0179340217220BCA002D8BCA /* baseStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = baseStore.h; path = ../../../AOC2/week1/testApp/baseStore.h; sourceTree = "<group>"; };
-		0179341017221337002D8BCA /* bookFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = bookFactory.m; path = ../../../AOC2/week1/testApp/bookFactory.m; sourceTree = "<group>"; };
-		0179341117221337002D8BCA /* bookFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bookFactory.h; path = ../../../AOC2/week1/testApp/bookFactory.h; sourceTree = "<group>"; };
-		017934131722221F002D8BCA /* IMG_1576.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1576.jpg; path = "../../../../Pictures/iPhoto Library/Previews/2011/09/15/20110915-194141/IMG_1576.jpg"; sourceTree = "<group>"; };
+		0179341E172239A6002D8BCA /* baseStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseStore.h; sourceTree = "<group>"; };
+		0179341F172239A6002D8BCA /* bookFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bookFactory.m; sourceTree = "<group>"; };
+		01793420172239A6002D8BCA /* bookFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookFactory.h; sourceTree = "<group>"; };
+		01793421172239A6002D8BCA /* adultBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adultBook.h; sourceTree = "<group>"; };
+		01793422172239A6002D8BCA /* childBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = childBook.m; sourceTree = "<group>"; };
+		01793423172239A6002D8BCA /* childBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = childBook.h; sourceTree = "<group>"; };
+		01793424172239A6002D8BCA /* kidBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kidBook.m; sourceTree = "<group>"; };
+		01793425172239A6002D8BCA /* kidBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kidBook.h; sourceTree = "<group>"; };
+		01793426172239A6002D8BCA /* adultBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = adultBook.m; sourceTree = "<group>"; };
+		01793427172239A6002D8BCA /* bookStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookStore.h; sourceTree = "<group>"; };
+		0179342D172239D6002D8BCA /* IMG_1576.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1576.jpg; path = "../../../../Pictures/iPhoto Library/Previews/2011/09/15/20110915-194141/IMG_1576.jpg"; sourceTree = "<group>"; };
+		0179342F17223BD5002D8BCA /* baseStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = baseStore.m; path = ../../../week1/testApp/baseStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +85,7 @@
 		017933BC1721C9B2002D8BCA = {
 			isa = PBXGroup;
 			children = (
+				0179342D172239D6002D8BCA /* IMG_1576.jpg */,
 				017933D11721C9B2002D8BCA /* bookFactory */,
 				017933CA1721C9B2002D8BCA /* Frameworks */,
 				017933C81721C9B2002D8BCA /* Products */,
@@ -105,17 +113,20 @@
 		017933D11721C9B2002D8BCA /* bookFactory */ = {
 			isa = PBXGroup;
 			children = (
-				017934131722221F002D8BCA /* IMG_1576.jpg */,
-				017933FB17220BCA002D8BCA /* adultBook.h */,
-				0179340017220BCA002D8BCA /* adultBook.m */,
-				017933FF17220BCA002D8BCA /* kidBook.h */,
-				017933FE17220BCA002D8BCA /* kidBook.m */,
-				017933FD17220BCA002D8BCA /* childBook.h */,
-				017933FC17220BCA002D8BCA /* childBook.m */,
-				0179340117220BCA002D8BCA /* baseStore.m */,
-				0179340217220BCA002D8BCA /* baseStore.h */,
-				0179341117221337002D8BCA /* bookFactory.h */,
-				0179341017221337002D8BCA /* bookFactory.m */,
+				0118D248172249B5007624E9 /* potter.jpg */,
+				0118D249172249B5007624E9 /* objc.png */,
+				0118D24517224989007624E9 /* dr.seussabc.jpg */,
+				0179341E172239A6002D8BCA /* baseStore.h */,
+				0179342F17223BD5002D8BCA /* baseStore.m */,
+				0179341F172239A6002D8BCA /* bookFactory.m */,
+				01793420172239A6002D8BCA /* bookFactory.h */,
+				01793421172239A6002D8BCA /* adultBook.h */,
+				01793422172239A6002D8BCA /* childBook.m */,
+				01793423172239A6002D8BCA /* childBook.h */,
+				01793424172239A6002D8BCA /* kidBook.m */,
+				01793425172239A6002D8BCA /* kidBook.h */,
+				01793426172239A6002D8BCA /* adultBook.m */,
+				01793427172239A6002D8BCA /* bookStore.h */,
 				017933DA1721C9B2002D8BCA /* AppDelegate.h */,
 				017933DB1721C9B2002D8BCA /* AppDelegate.m */,
 				017933E61721C9B2002D8BCA /* ViewController.xib */,
@@ -200,7 +211,10 @@
 				017933E21721C9B2002D8BCA /* Default-568h@2x.png in Resources */,
 				017933E81721C9B2002D8BCA /* ViewController.xib in Resources */,
 				017933EF1721D65A002D8BCA /* infoViewController.xib in Resources */,
-				017934141722221F002D8BCA /* IMG_1576.jpg in Resources */,
+				0179342E172239D6002D8BCA /* IMG_1576.jpg in Resources */,
+				0118D24617224989007624E9 /* dr.seussabc.jpg in Resources */,
+				0118D24A172249B5007624E9 /* potter.jpg in Resources */,
+				0118D24B172249B5007624E9 /* objc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,11 +229,11 @@
 				017933DC1721C9B2002D8BCA /* AppDelegate.m in Sources */,
 				017933E51721C9B2002D8BCA /* ViewController.m in Sources */,
 				017933F21721D679002D8BCA /* infoViewController.m in Sources */,
-				0179340617220BCA002D8BCA /* childBook.m in Sources */,
-				0179340717220BCA002D8BCA /* kidBook.m in Sources */,
-				0179340817220BCA002D8BCA /* adultBook.m in Sources */,
-				0179340917220BCA002D8BCA /* baseStore.m in Sources */,
-				0179341217221338002D8BCA /* bookFactory.m in Sources */,
+				01793428172239A6002D8BCA /* bookFactory.m in Sources */,
+				01793429172239A6002D8BCA /* childBook.m in Sources */,
+				0179342A172239A6002D8BCA /* kidBook.m in Sources */,
+				0179342B172239A6002D8BCA /* adultBook.m in Sources */,
+				0179343017223BD5002D8BCA /* baseStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +348,7 @@
 				017933ED1721C9B2002D8BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
