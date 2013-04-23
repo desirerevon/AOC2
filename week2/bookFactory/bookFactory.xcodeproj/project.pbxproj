@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0118D24617224989007624E9 /* dr.seussabc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0118D24517224989007624E9 /* dr.seussabc.jpg */; };
-		0118D24A172249B5007624E9 /* potter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0118D248172249B5007624E9 /* potter.jpg */; };
-		0118D24B172249B5007624E9 /* objc.png in Resources */ = {isa = PBXBuildFile; fileRef = 0118D249172249B5007624E9 /* objc.png */; };
+		0118D2571725FECB007624E9 /* dr.seussabc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0118D2541725FECA007624E9 /* dr.seussabc.jpg */; };
+		0118D2581725FECB007624E9 /* potter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0118D2551725FECA007624E9 /* potter.jpg */; };
+		0118D2591725FECB007624E9 /* objc.png in Resources */ = {isa = PBXBuildFile; fileRef = 0118D2561725FECA007624E9 /* objc.png */; };
 		017933CC1721C9B2002D8BCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017933CB1721C9B2002D8BCA /* UIKit.framework */; };
 		017933CE1721C9B2002D8BCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017933CD1721C9B2002D8BCA /* Foundation.framework */; };
 		017933D01721C9B2002D8BCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017933CF1721C9B2002D8BCA /* CoreGraphics.framework */; };
@@ -32,9 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0118D24517224989007624E9 /* dr.seussabc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dr.seussabc.jpg; path = ../../../../dr.seussabc.jpg; sourceTree = "<group>"; };
-		0118D248172249B5007624E9 /* potter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = potter.jpg; path = ../../../../potter.jpg; sourceTree = "<group>"; };
-		0118D249172249B5007624E9 /* objc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = objc.png; path = ../../../../objc.png; sourceTree = "<group>"; };
+		0118D2541725FECA007624E9 /* dr.seussabc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dr.seussabc.jpg; path = bookFactory/dr.seussabc.jpg; sourceTree = "<group>"; };
+		0118D2551725FECA007624E9 /* potter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = potter.jpg; path = bookFactory/potter.jpg; sourceTree = "<group>"; };
+		0118D2561725FECA007624E9 /* objc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = objc.png; path = bookFactory/objc.png; sourceTree = "<group>"; };
 		017933C71721C9B2002D8BCA /* bookFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		017933CB1721C9B2002D8BCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		017933CD1721C9B2002D8BCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,6 +85,9 @@
 		017933BC1721C9B2002D8BCA = {
 			isa = PBXGroup;
 			children = (
+				0118D2541725FECA007624E9 /* dr.seussabc.jpg */,
+				0118D2551725FECA007624E9 /* potter.jpg */,
+				0118D2561725FECA007624E9 /* objc.png */,
 				0179342D172239D6002D8BCA /* IMG_1576.jpg */,
 				017933D11721C9B2002D8BCA /* bookFactory */,
 				017933CA1721C9B2002D8BCA /* Frameworks */,
@@ -113,9 +116,6 @@
 		017933D11721C9B2002D8BCA /* bookFactory */ = {
 			isa = PBXGroup;
 			children = (
-				0118D248172249B5007624E9 /* potter.jpg */,
-				0118D249172249B5007624E9 /* objc.png */,
-				0118D24517224989007624E9 /* dr.seussabc.jpg */,
 				0179341E172239A6002D8BCA /* baseStore.h */,
 				0179342F17223BD5002D8BCA /* baseStore.m */,
 				0179341F172239A6002D8BCA /* bookFactory.m */,
@@ -205,6 +205,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0118D2571725FECB007624E9 /* dr.seussabc.jpg in Resources */,
+				0118D2581725FECB007624E9 /* potter.jpg in Resources */,
+				0118D2591725FECB007624E9 /* objc.png in Resources */,
 				017933D61721C9B2002D8BCA /* InfoPlist.strings in Resources */,
 				017933DE1721C9B2002D8BCA /* Default.png in Resources */,
 				017933E01721C9B2002D8BCA /* Default@2x.png in Resources */,
@@ -212,9 +215,6 @@
 				017933E81721C9B2002D8BCA /* ViewController.xib in Resources */,
 				017933EF1721D65A002D8BCA /* infoViewController.xib in Resources */,
 				0179342E172239D6002D8BCA /* IMG_1576.jpg in Resources */,
-				0118D24617224989007624E9 /* dr.seussabc.jpg in Resources */,
-				0118D24A172249B5007624E9 /* potter.jpg in Resources */,
-				0118D24B172249B5007624E9 /* objc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

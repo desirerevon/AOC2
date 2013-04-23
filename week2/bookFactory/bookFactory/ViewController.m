@@ -190,11 +190,12 @@
 //DEVELOPER INFO: SWITCH PAGES///////////////////////////////////////////////////////////
 -(IBAction)switchInfoPage:(id)sender
 {
-    infoViewController *infoPage = [[infoViewController alloc]initWithNibName:@"infoViewController" bundle:nil];
-    if (infoPage != nil)
+    infoViewController *viewController = [[infoViewController alloc] initWithNibName:@"infoViewController" bundle:nil];
+    if (viewController != nil)
     {
-        [self presentViewController:infoPage animated:true completion:nil];
+        [self presentViewController:viewController animated:TRUE completion:nil];
     }
+    
 }
 
 
