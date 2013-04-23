@@ -31,7 +31,7 @@
 
 -(IBAction)onClick:(id)sender;     //random screen selection
 
--(IBAction)switchPage:(id)sender;
+-(IBAction)switchPage:(id)sender; //switch page to dev info
 
 -(IBAction)powerSwitch:(UISwitch*)sender;//power calculator on or off
 
@@ -40,5 +40,6 @@
 -(IBAction)stepper:(id)sender; //number of pages
 
 -(IBAction)colorChange:(id)sender; //color change per group
+
 
 @end

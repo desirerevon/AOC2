@@ -14,7 +14,7 @@
 //Data for number of books read and time per book
 @property int pages;
 @property int timePerPage;
-
+@property int totalReadTime;
 
 
 
