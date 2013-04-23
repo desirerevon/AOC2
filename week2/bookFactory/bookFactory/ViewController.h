@@ -31,7 +31,7 @@
 
 -(IBAction)onClick:(id)sender;     //random screen selection
 
--(IBAction)switchInfoPage:(id)sender;
+-(IBAction)switchPage:(id)sender;
 
 -(IBAction)powerSwitch:(UISwitch*)sender;//power calculator on or off
 

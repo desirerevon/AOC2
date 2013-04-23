@@ -188,7 +188,7 @@
 
 
 //DEVELOPER INFO: SWITCH PAGES///////////////////////////////////////////////////////////
--(IBAction)switchInfoPage:(id)sender
+-(IBAction)switchPage:(id)sender
 {
     infoViewController *viewController = [[infoViewController alloc] initWithNibName:@"infoViewController" bundle:nil];
     if (viewController != nil)
