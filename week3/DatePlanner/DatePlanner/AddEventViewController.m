@@ -38,11 +38,15 @@
 
 -(IBAction)onSaveEvent:(id)sender
 {
+    //Should I reverse this code an d throw the alert before the date function runs
+    //in order for the alert to cancel out in second view?
+    
+    
     //Allows user to choose a date
     //Keeps older days grayed out
     date.minimumDate = [NSDate date];
     NSDate *userDate = [date date];
-    if(userDate !=nil)
+    if(userDate != nil)
     {
         NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
         if (dateFormat != nil) {
@@ -52,6 +56,7 @@
         NSLog(@"%@", newText);
     }
     
+
     [self dismissViewControllerAnimated:false completion:nil];
     if (delegate != nil)
     {
@@ -65,7 +70,8 @@
         if (showAlert != nil)
         {
             [showAlert show];
-        }
+            
+            }
     }
 }
 

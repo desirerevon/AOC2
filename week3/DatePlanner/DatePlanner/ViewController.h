@@ -12,7 +12,6 @@
 @interface ViewController : UIViewController <EventDelegate>
 
 {
-    //Main textView where events will be appended//
     IBOutlet UITextView *addEvent;
     
     
